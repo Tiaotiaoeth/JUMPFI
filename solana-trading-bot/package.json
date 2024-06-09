@@ -1,0 +1,31 @@
+{
+  "name": "solana-trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.92.2",
+    "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "moment-timezone": "^0.5.45",
+    "path": "^0.12.7",
+    "perf_hooks": "^0.0.1",
+    "sqlite": "^4.0.0",
+    "sqlite3": "^5.0.0",
+    "winston": "^3.13.0",
+    "ws": "^8.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "ts-node": "^10.9.2"
+  }
+}
