@@ -8,7 +8,7 @@ dotenv.config();
 
 // 检查环境变量中是否存在私钥和RPC URL
 const secretKeyString = process.env.SECRET_KEY;
-const solanaEndpoint = 'https://mainnet.helius-rpc.com/?api-key=d142bdeb-2780-414b-98d9-340ea3a08fa9';
+const solanaEndpoint = process.env.SOLANA_ENDPOINT;
 
 if (!secretKeyString) {
   throw new Error("Missing SECRET_KEY in .env file");
